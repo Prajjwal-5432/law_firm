@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 367px;
+  background-color: var(--css-black);
+  margin-top: 40px;
+}
+div.footer > :nth-child(1) {
+  display: flex;
+  color: var(--css-white);
+  justify-content: space-around;
+}
+
+.foot-buttons {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 548px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.foot-buttons > li {
+  cursor: pointer;
+}
+
+.foot-icon {
+  width: 143px;
+  height: 30.3px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 187px;
+}
+
+.socials img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--css-white);
+}
+
+.copyright p {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}

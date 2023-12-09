@@ -1,0 +1,86 @@
+.client {
+  display: flex;
+  color: var(--css-white);
+  flex-direction: column;
+  margin: 200px 300px 0px 300px;
+}
+
+.client-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-heading p {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 77.23px;
+}
+
+.client-card {
+  display: flex;
+}
+
+.arrow-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btns button {
+  margin: 10px;
+  width: 91px;
+  height: 91px;
+  border-radius: 100%;
+  border-style: none;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+div.arrow-btns > :nth-child(2) {
+  background-color: #e3b748;
+}
+
+.client-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+div.client-cards > :nth-child(2) {
+  background-color: var(--css-light-grey);
+}
+
+.client-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+  height: 368px;
+  width: 359px;
+  border: 1.4px solid var(--css-light-grey);
+  border-radius: 14px;
+}
+
+.client-card img {
+  height: 102px;
+  width: 105px;
+}
+
+div.client-card > :nth-child(2) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+div.client-card > :nth-child(3) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+div.client-card > :nth-child(4) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.75px;
+  opacity: 0.3;
+}

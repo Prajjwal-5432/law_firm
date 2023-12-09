@@ -1,0 +1,6 @@
+.home {
+  height: 990px;
+  width: 100%;
+  background-color: var(--css-black);
+  padding: 60px;
+}

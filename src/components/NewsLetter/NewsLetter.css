@@ -1,0 +1,51 @@
+.newsLetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--css-light-grey);
+  margin: 195px;
+  height: 356px;
+}
+
+.newsLetter p {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 75.35px;
+  color: var(--css-white);
+}
+
+.newsLetter-input > * {
+  margin: 5px;
+}
+
+.newsLetter-input input {
+  height: 53px;
+  width: 276px;
+}
+
+.newsLetter-input button {
+  background-color: #e3b748;
+  color: var(-css-black);
+  border-style: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  width: 116px;
+  height: 53px;
+  text-indent: 10px;
+}
+
+div.newsLetter-input > :first-child {
+  border-radius: 8px 0px 0px 8px;
+}
+
+div.newsLetter-input > :last-child {
+  border-radius: 0px 8px 8px 0px;
+  text-align: center;
+}
+
+::placeholder {
+  padding: 5px;
+  font-style: italic;
+}

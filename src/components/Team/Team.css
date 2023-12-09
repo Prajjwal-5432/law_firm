@@ -1,0 +1,64 @@
+.team {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.team > :nth-child(1) {
+  width: 253px;
+  height: 77px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 77.23px;
+  color: var(--css-white);
+  margin-bottom: 40px;
+}
+
+div.team > :nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1156px;
+  justify-content: center;
+}
+
+.team-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 344px;
+  height: 109px;
+  margin: 5px;
+  padding: 20px;
+  color: var(--css-white);
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 119px;
+  height: 54px;
+  margin-left: 20px;
+}
+
+div.team-member > :nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+div.team-member > :nth-child(2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.3;
+}
+
+div.members > :nth-child(2) {
+  background-color: #e3b748;
+  border-radius: 14px;
+  color: var(--css-black);
+}

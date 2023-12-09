@@ -1,0 +1,68 @@
+.faq-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 329px;
+  margin: 100px 300px 100px 300px;
+  color: var(--css-white);
+}
+
+div.faq > :first-child {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74.53px;
+}
+
+div.faq > :last-child {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29.25px;
+  opacity: 0.3;
+}
+
+.list {
+  max-width: 600px;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.question button {
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  border-style: none;
+  background-color: #e3b748;
+  font-size: 18px;
+}
+
+.answer {
+  line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.answer p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29.25px;
+  opacity: 0.3;
+}
+
+.list.active .answer {
+  max-height: 300px;
+}

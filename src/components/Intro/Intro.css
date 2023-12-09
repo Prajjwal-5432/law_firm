@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--css-white);
+  margin-top: 60px;
+}
+
+.vertical-line {
+  border: 1px solid #6a6a6a;
+  height: 206px;
+}
+
+.intro-heading {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 87.22px;
+}
+
+div.intro-content > :first-child {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 52.01px;
+}
+
+div.intro-content > :nth-child(2) {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29.25px;
+  opacity: 30%;
+}
